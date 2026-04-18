@@ -10,7 +10,7 @@ const Header = () => {
                 <li className="nav-item"><a>Contacts</a></li>
             </ul>
         </nav>
-        <button className="theme-btn">#</button>
+        <button className="theme-btn">Change Theme</button>
     </div>    
 )
 }
