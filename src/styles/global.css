@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 30px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: "Krona One", sans-serif;
+    background-color: var(--color-pale-violet);
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+input,
+label,
+button {
+    transition: var(--transition-duration);
+}
+
+a {
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+:focus-visible {
+    outline: 2px dashed var(--color-black);
+    outline-offset: 4px;
+    transition-duration: 0s !important;
+}

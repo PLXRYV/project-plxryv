@@ -1,9 +1,15 @@
-import Header from './components/header.jsx'
+import Header from './components/header';
+import MainContent from './components/MainContent';
+import MainApplication from './components/MainApplication';
 
-const App = () => {
+function App() {
   return (
-    <Header/>
-  )
+    <MainApplication>
+      <Header />
+      <MainContent />
+    </MainApplication>
+  );
 }
 
-export default App
+export default App;
+

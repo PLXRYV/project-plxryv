@@ -1,9 +1,9 @@
-import Header from './header.jsx'
-
-const MainApplication = () => {
+const MainApplication = ({ children }) => {
     return (
-        <Header/>
-    )
-    }   
+    <div className="layout">
+        {children}
+    </div>
+);
+};
+export default MainApplication;
 
-export default MainApplication

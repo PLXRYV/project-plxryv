@@ -1,0 +1,20 @@
+:root {
+    --color-white: #fbfafb;
+    --color-black: #000000;
+    
+    --color-pale-violet: #86819e;
+    --color-darkPale-violet: #625d73;
+    --color-purple: #594ba0;
+    --color-dark-purple: #41394f;
+    --color-coldDark-purple: #2b2530;
+
+    --color-yellow: #ffeebc;
+
+    --border: 1px solid var(--color-dark-purple);
+
+    --border-radius: 8px;
+
+    --input-height: 40px;
+
+    --transition-duration: 0.2s;
+}

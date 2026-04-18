@@ -1,8 +1,7 @@
-import './normalize.css'
+import './variables.css'
 import './global.css'
 import './fonts.css'
-import './utils.css'
-import './global.css'
-
-
-import './components/button.css'
+// import './utils.css'
+// import './normalize.css'
+import './components/header.css'
+import './components/main.css'
