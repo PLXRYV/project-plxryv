@@ -21,3 +21,21 @@ p {
     font-size: 32px;
     color: var(--color-yellow);
 }
+
+.animation {
+    display: flex;
+    gap: 100px;
+    margin-top: 32px;
+}
+
+.animation__item {
+    width: 500px;
+    height: 250px;
+    background-color: var(--color-coldDark-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-yellow);
+    font-size: 24px;
+    animation: move 2s linear infinite alternate;
+}

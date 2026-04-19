@@ -1,10 +1,13 @@
+import Lottie from "lottie-react";
+import animationData from "../assets/animations/programming.json";
+
 const MainContent = () => {
     return (
-        <div className="main">
-                <h1><span>Hello!</span>My name is Yaroslav Vorobiev</h1>
-                <p>I can do your site with great things.</p>
+        <div style={{ width: 300, height: 300, margin: "0 auto" }}>
+            <Lottie animationData={animationData} loop={true} />
         </div>
-    )
-}
+    );
+};
 
-export default MainContent
+export default MainContent;
+
