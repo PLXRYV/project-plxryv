@@ -5,5 +5,5 @@ const MainApplication = ({ children }) => {
     </div>
 );
 };
-export default MainApplication;
+export default MainApplication
 
