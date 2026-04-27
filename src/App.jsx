@@ -7,7 +7,6 @@ function App() {
   return (
     <MainApplication>
       <Header />
-      <TypingText text="Этот текст печатается..." speed={20} />
       <MainContent />
     </MainApplication>
   );

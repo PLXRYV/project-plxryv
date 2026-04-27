@@ -22,9 +22,6 @@ const TypingText = ({ text, speed = 100 }) => {
         return <span>{displayedText}</span>;
     };
 
-// Использование:
-
-
 const MainContent = () => {
     return (
     <div className="animationMain">
