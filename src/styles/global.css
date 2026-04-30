@@ -9,7 +9,7 @@ body {
     background-color: var(--color-pale-violet);
 }
 
-.container {
+.wrapper {
     max-width: 1440px;
     padding: 0 10px;
     margin: 0 auto;
@@ -30,4 +30,8 @@ a {
     outline: 2px dashed var(--color-black);
     outline-offset: 4px;
     transition-duration: 0s !important;
+}
+
+li {
+    text-decoration: none;
 }

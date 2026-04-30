@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 20px 0 100px;
+    padding: 30px 20px 0 100px;
     margin: 0 auto;
 }
 
 .mainText {
     width: 600px;
-    padding: 100px 150px 0 100px;
+    padding: 30px 150px 0 100px;
 }
 
 h1 {
