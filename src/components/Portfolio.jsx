@@ -51,6 +51,14 @@ const Portfolio = () => {
                             the details of the terms of reference
                         </p>
                     </li>
+                    <li className="skillItem">
+                        <p className="skillName">Problem Solver
+                        </p>
+                    </li>
+                    <li className="skillItem">
+                        <p className="skillName">Lifelong Learner & Proactive
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>
