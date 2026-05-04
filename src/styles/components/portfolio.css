@@ -1,34 +1,46 @@
-.portfolioSkills {
-    display:flex;
-    justify-content: space-between;
-    padding: 100px 30px 0 30px;
+.myportfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
 }
 
-.firstList {
-    max-width: 500px;
-    width: 100%
-}
-
-.namePortfolioList {
+.myportfolio-container h1 {
     color: var(--color-white);
 }
 
-.nameList {
-    padding-inline-start: 0px;
+.myportfolio-item {
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    background-color: var(--color-dark-purple);
+    padding: 50px 30px;
+    border-radius: 100px;
+    box-shadow: var(--color-white) 0px 0px 10px;
 }
 
-.skillItem {
-    background-color: var(--color-yellow);
-    list-style: none;
-    border-radius: 10px;
-    padding: 0px 20px;
-    padding-inline-start: 0px;
-}
 
-.skillName {
-    text-align: center;
-    color: var(--color-pale-violet);
+.portfolio-item-date {
+    color: var(--color-coldDark-purple);
+    font-size: 20px;
     padding: 10px 30px;
-    font-size: 30px;
+    background-color: var(--color-white);
+    width: fit-content;
+    border-radius: 50px;
+    box-shadow: var(--color-dark-purple) 0px 0px 10px;
 }
 
+.portfolio-item-link {
+    color: var(--color-white);
+    font-size: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.portfolio-item-description {
+    color: var(--color-yellow);
+    font-size: 18px;
+    padding: 10px 30px;
+    max-width: 500px;
+    width: 100%;
+}

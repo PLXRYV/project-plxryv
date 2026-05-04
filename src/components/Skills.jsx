@@ -1,5 +1,4 @@
-
-const Portfolio = () => {
+const Skills = () => {
     return (
         <div className="portfolioSkills">
             <div className="firstList">
@@ -65,4 +64,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default Skills

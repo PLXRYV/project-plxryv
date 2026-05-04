@@ -27,8 +27,8 @@ const MainContent = () => {
     <div className="animationMain">
         <div className='mainText'>
             <h1><span>Hello!</span>My name is Yaroslav Vorobiev</h1>
-                <p>I am a Frontend Developer</p>
-            <p>I can do some great things with your website</p>
+                <h1>I am a Frontend Developer</h1>
+            <h1>I can do some great things with your website</h1>
         </div>
 
         {typeof Lottie === 'function' || typeof Lottie === 'object' ? (
