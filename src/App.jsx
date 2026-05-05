@@ -5,6 +5,7 @@ import MainApplication from './components/MainApplication';
 import Skills from './components/Skills';
 import ButtonCheck from './components/ButtonCheck';
 import MyPortfolio from './components/MyPortfolio';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ButtonCheck/>
       <Skills/>
       <MyPortfolio/>
+      <Footer/>
     </MainApplication>
   );
 }
