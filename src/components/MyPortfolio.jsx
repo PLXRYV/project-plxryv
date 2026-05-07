@@ -10,12 +10,6 @@ const MyPortfolio = () => {
                     <p className="portfolio-item-description">Multi-page website, based on code with integration of several technologies:
                         Vite; React; CustomHooks; JavaScript; SCSS; HTML; Node.JS.
                     </p>
-                    <img></img>
-                    <img></img>
-                    <img></img>
-                    <img></img>
-                    <img></img>
-                    <img></img>
                 </div>
             </div>
             <div className="myportfolio-item">
