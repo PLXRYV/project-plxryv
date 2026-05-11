@@ -19,6 +19,19 @@
     box-shadow: var(--color-white) 0px 0px 10px;
 }
 
+.portfolio-item-image {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.portfolio-item-image:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 
 .portfolio-item-date {
     color: var(--color-coldDark-purple);
