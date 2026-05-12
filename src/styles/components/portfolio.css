@@ -1,5 +1,6 @@
 .myportfolio-container {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 50px;
     padding: 50px 0;
@@ -11,6 +12,8 @@
 
 .myportfolio-item {
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 1240px;
     width: 100%;
     background-color: var(--color-dark-purple);
@@ -22,7 +25,7 @@
 .portfolio-item-image {
     width: 500px;
     height: 300px;
-    border-radius: 50px;
+    border-radius: 30px;
     object-fit: cover;
     margin-right: 50px;
 }
@@ -46,14 +49,27 @@
 .portfolio-item-link {
     color: var(--color-white);
     font-size: 30px;
-    padding: 10px 30px;
+    padding-top: 50px;
     cursor: pointer;
 }
 
 .portfolio-item-description {
     color: var(--color-yellow);
     font-size: 18px;
-    padding: 10px 30px;
+    padding-bottom: 30px;
     max-width: 500px;
     width: 100%;
+}
+
+.portfolio-item-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+}
+
+.portfolio-item-icon:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
