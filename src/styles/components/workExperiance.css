@@ -1,0 +1,44 @@
+.work-experiance {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.experience-item {
+    width: 1200px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: var(--color-coldDark-purple);
+    box-shadow: var(--color-white) 0px 0px 10px;
+}
+
+.experience-title {
+    color: var(--color-white);
+    font-size: 32px;
+}
+
+.experience-position {
+    color: var(--color-yellow);
+    font-size: 24px;
+}
+
+.experience-dates {
+    color: var(--color-coldDark-purple);
+    font-size: 18px;
+    padding: 10px 30px;
+    background-color: var(--color-white);
+    width: fit-content;
+    border-radius: 30px;
+}
+
+.experience-description {
+    color: var(--color-white);
+    font-size: 18px;
+    max-width: 1000px;
+}
+
+.experience-technologies {
+    padding: 20px 0;
+}

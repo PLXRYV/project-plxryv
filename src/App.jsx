@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import ButtonCheck from './components/ButtonCheck';
 import MyPortfolio from './components/MyPortfolio';
 import Footer from './components/Footer';
+import WorkExperiance from './components/WorkExperiance';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ButtonCheck/>
       <Skills/>
       <MyPortfolio/>
+      <WorkExperiance/>
       <Footer/>
     </MainApplication>
   );
