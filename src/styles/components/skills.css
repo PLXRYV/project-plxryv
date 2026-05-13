@@ -5,9 +5,28 @@
     gap: 300px;
 }
 
+@media (max-width: 1440px) {
+    .portfolioSkills {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolioSkills {
+        gap: 40px;
+        padding: 100px 30px;
+    }
+}
+
 .firstList {
     max-width: 500px;
     width: 100%
+}
+
+@media (max-width: 992px) {
+    .firstList {
+        max-width: 400px;
+    }
 }
 
 .namePortfolioList {
@@ -34,10 +53,15 @@
     box-shadow: var(--color-white) 0px 0px 10px;
 }
 
+@media (max-width: 992px) {
+    .skillItem {
+        max-width: 400px
+    }
+}
+
 .skillName {
     text-align: center;
     color: var(--color-pale-violet);
     padding: 10px 30px;
     font-size: 30px;
 }
-
