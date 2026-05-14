@@ -17,6 +17,22 @@
     justify-content: space-between;
 }
 
+@media (max-width: 1440px) {
+    .footer-container {
+        max-width: 1080px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        max-width: 768px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .footer-text {
     color: var(--color-white);
     font-size: 32px;
@@ -53,11 +69,4 @@
 .link-icon:hover {
     background-color: var(--color-pale-violet);
     box-shadow: var(--color-pale-violet) 0 0 10px;
-}
-
-@media (max-width: 1440px) {
-    .footer-container {
-        max-width: 1080px;
-        width: 100%;
-    }
 }
