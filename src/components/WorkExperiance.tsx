@@ -5,7 +5,7 @@ const WorkExperiance = () => {
             <h1><span>Work</span>Experience</h1>
             <ul className="experience-list">
                 <li className="experience-item">
-                    <p className="experience-dates">June 2025 - March 2026</p>
+                    <p className="experience-dates">March 2024 - February 2026</p>
                     <h3 className="experience-title">"Vector" Web-studio</h3>
                     <h3 className="experience-position">Frontend Developer</h3>
                     <p className="experience-description">Development of the frontend part of projects in the field of e-commerce and web-studio. Development in JavaScript in the OOP style. Creating simple React components. Creating responsive and user-friendly interfaces.</p>
