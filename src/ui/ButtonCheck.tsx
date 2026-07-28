@@ -1,3 +1,5 @@
+import styles from './buttonCheck.module.css';
+
 const ButtonCheck = () => {
     return(
         <div className="button-check__container">
