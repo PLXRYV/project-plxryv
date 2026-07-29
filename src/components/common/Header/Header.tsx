@@ -1,7 +1,7 @@
 const Header = () => {
     return (
     <div className="header">
-        <img src="./src/assets/logo.svg" alt="Logo" className="logo"/>
+        <img src="./src/assets/icons/logo.svg" alt="Logo" className="logo"/>
         <nav>
             <ul className="nav-list">
                 <li className="nav-item"><a>About</a></li>
