@@ -1,4 +1,4 @@
-import styles from './buttonCheck.module.css';
+import styles from './ButtonCheck.module.scss';
 
 const ButtonCheck = () => {
     return(
