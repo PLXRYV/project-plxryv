@@ -1,9 +1,16 @@
-const MainApplication = ({ children }) => {
-    return (
+import React from 'react';
+
+import animationData from "/src/assets/animations/Programming.json";
+
+
+const MainApplication = ({ children }: MainApplicationProps) => {
+  return (
     <div className="layout">
-        {children}
+      {children}
     </div>
-);
+  );
 };
-export default MainApplication
+
+export default MainApplication;
+
 

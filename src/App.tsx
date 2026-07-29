@@ -1,12 +1,12 @@
-import Intro from '@components/Intro/Intro';
-import Header from '@/components/common/Header/Header';
-import MainContent from '@MainContent';
-import MainApplication from './components/MainApplication/MainApplication';
-import Skills from './components/Skills/Skills';
-import ButtonCheck from './ui/ButtonCheck';
-import MyPortfolio from './components/Portfolio/Portfolio';
-import Footer from './components/common/Footer/Footer';
-import WorkExperiance from './components/Experiance/Experiance';
+import MainApplication from "./components/MainApplication/MainApplication.js";
+import Intro from "./components/Intro/Intro.js";
+import Header from "./components/common/Header/Header.js";
+import MainContent from "./components/MainContent/MainContent.js";
+import ButtonCheck from "./ui/ButtonCheck/ButtonCheck.js";
+import Skills from "./components/Skills/Skills.js";
+import Portfolio from "./components/Portfolio/Portfolio.js";
+import Experiance from "./components/Experiance/Experiance.js";
+import Footer from "./components/common/Footer/Footer.js";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <MainContent />
       <ButtonCheck/>
       <Skills/>
-      <MyPortfolio/>
-      <WorkExperiance/>
+      <Portfolio/>
+      <Experiance/>
       <Footer/>
     </MainApplication>
   );
