@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
-import Lottie from "lottie-react";
+import LottiePackage from "lottie-react";
 import animationData from "/src/assets/animations/Programming.json";
+import styles from './Main.module.scss';
+
+const Lottie = (LottiePackage as any).default || LottiePackage;
 
 interface TypingTextProps {
   text: string;
@@ -26,14 +29,18 @@ const TypingText = ({ text, speed = 100 }: TypingTextProps) => {
 
 const MainContent = () => {
   return (
-    <div className="animationMain">
-      <div className='mainText'>
+    <div className={styles.animationMain}>
+      <div className={styles.mainText}>
         <h1><span>Hello!</span> My name is Yaroslav Vorobiev</h1>
         <h1>I am a <TypingText text="Frontend Developer" speed={150} /></h1>
         <h1>I can do some great things with your website</h1>
       </div>
 
-      <Lottie animationData={animationData} loop={true} />
+      {typeof Lottie === 'function' || typeof Lottie === 'object' ? (
+        <Lottie animationData={animationData} loop={true} />
+      ) : (
+        <p>Ошибка инициализации компонента Lottie</p>
+      )}
     </div>
   );
 };

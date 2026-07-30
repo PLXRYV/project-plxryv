@@ -1,16 +1,15 @@
 import React from 'react';
 
-import animationData from "/src/assets/animations/Programming.json";
-
+interface MainApplicationProps {
+  children: React.ReactNode;
+}
 
 const MainApplication = ({ children }: MainApplicationProps) => {
   return (
-    <div className="layout">
+    <div className='layout'>
       {children}
     </div>
   );
 };
 
 export default MainApplication;
-
-

@@ -1,16 +1,15 @@
-.myportfolio-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 50px;
-    padding: 50px 0;
-}
+.myportfolioContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 0;
 
-.myportfolio-container h1 {
+  h1 {
     color: var(--color-white);
-}
+  }
 
-.myportfolio-item {
+  .myportfolioItem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,63 +19,93 @@
     padding: 50px 30px;
     border-radius: 100px;
     box-shadow: var(--color-white) 0px 0px 10px;
-}
 
-@media (max-width: 992px) {
-    .myportfolio-item {
-        flex-direction: column;
+    @media (max-width: 1440px) {
+      max-width: 1080px;
+      width: 100%;
     }
-}
 
-.portfolio-item-image {
-    width: 500px;
-    height: 300px;
-    border-radius: 30px;
-    object-fit: cover;
-    margin-right: 50px;
-}
+    @media (max-width: 992px) {
+      max-width: 768px;
+      width: 100%;
+      flex-direction: column;
+      gap: 30px;
+      border-radius: 50px;
+    }
 
-.portfolio-item-image:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-}
+    .portfolioItemImage {
+      width: 500px;
+      height: 300px;
+      border-radius: 30px;
+      object-fit: cover;
+      margin-right: 50px;
+      transition: transform 0.3s ease-in-out;
 
-
-.portfolio-item-date {
-    color: var(--color-coldDark-purple);
-    font-size: 20px;
-    padding: 10px 30px;
-    background-color: var(--color-white);
-    width: fit-content;
-    border-radius: 50px;
-    box-shadow: var(--color-dark-purple) 0px 0px 10px;
-}
-
-.portfolio-item-link {
-    color: var(--color-white);
-    font-size: 30px;
-    padding-top: 50px;
-    cursor: pointer;
-}
-
-.portfolio-item-description {
-    color: var(--color-yellow);
-    font-size: 18px;
-    padding-bottom: 30px;
-    max-width: 500px;
-    width: 100%;
-}
-
-@media (max-width: 1440px) {
-    .myportfolio-item {
-        max-width: 1080px;
+      @media (max-width: 992px) {
+        margin-right: 0;
         width: 100%;
-    }
-}
+        max-width: 500px;
+      }
 
-@media (max-width: 992px) {
-    .myportfolio-item {
-        max-width: 768px;
-        width: 100%;
+      &:hover {
+        transform: scale(1.05);
+      }
     }
+
+    .myportfolioDescription {
+      display: flex;
+      flex-direction: column;
+      
+      @media (max-width: 992px) {
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    .portfolioItemDate {
+      color: var(--color-coldDark-purple);
+      font-size: 20px;
+      padding: 10px 30px;
+      background-color: var(--color-white);
+      width: fit-content;
+      border-radius: 50px;
+      box-shadow: var(--color-dark-purple) 0px 0px 10px;
+    }
+
+    .portfolioItemLink {
+      color: var(--color-white);
+      font-size: 30px;
+      padding-top: 20px;
+      cursor: pointer;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .portfolioItemDescription {
+      color: var(--color-yellow);
+      font-size: 18px;
+      padding-bottom: 20px;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .techIcons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+
+      @media (max-width: 992px) {
+        justify-content: center;
+      }
+
+      .itemIcon {
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+      }
+    }
+  }
 }

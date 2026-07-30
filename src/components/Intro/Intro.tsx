@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import styles from './Intro.module.scss';
 
 const Intro = () => {
   const [isSlidingUp, setIsSlidingUp] = useState(false);
@@ -24,8 +25,8 @@ const Intro = () => {
   }
 
   return (
-    <div className={`intro-overlay ${isSlidingUp ? 'slide-up' : ''}`}>
-      <div className="typewriter">
+    <div className={`${styles.introOverlay} ${isSlidingUp ? styles.slideUp : ''}`}>
+      <div className={styles.typewriter}>
         <h1>project PLXRYV</h1>
       </div>
     </div>
