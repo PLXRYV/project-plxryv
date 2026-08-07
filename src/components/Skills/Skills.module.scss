@@ -1,71 +1,95 @@
 .portfolioSkills {
-    display:flex;
+    display: flex;
     justify-content: center;
-    padding: 100px 30px 0 30px;
-    gap: 300px;
-}
-
-@media (max-width: 1440px) {
-    .portfolioSkills {
-        gap: 100px;
-    }
-}
-
-@media (max-width: 992px) {
-    .portfolioSkills {
-        gap: 40px;
-        padding: 100px 30px;
-    }
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .firstList {
+    width: 100%;
     max-width: 500px;
-    width: 100%
-}
-
-@media (max-width: 992px) {
-    .firstList {
-        max-width: 400px;
-    }
+    box-sizing: border-box;
 }
 
 .namePortfolioList {
     color: var(--color-white);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .nameList {
-    padding-inline-start: 0px;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
     border: 1px solid var(--color-coldDark-purple);
+    padding: 20px;
+    border-radius: 12px;
 }
 
 .skillItem {
     background-color: var(--color-yellow);
     list-style: none;
     border-radius: 10px;
-    padding: 0px 20px;
-    padding-inline-start: 0px;
+    width: 100%;
+    max-width: 400px;
     box-shadow: var(--color-coldDark-purple) 0px 0px 10px;
+    box-sizing: border-box;
+    transition: background-color var(--transition-duration), 
+                color var(--transition-duration), 
+                box-shadow var(--transition-duration);
 }
 
 .skillItem:hover {
     background-color: var(--color-coldDark-purple);
     color: var(--color-white);
-    transition: var(--transition-duration);
     box-shadow: var(--color-white) 0px 0px 10px;
-}
-
-@media (max-width: 992px) {
-    .skillItem {
-        max-width: 400px
-    }
 }
 
 .skillName {
     text-align: center;
     color: var(--color-pale-violet);
-    padding: 10px 30px;
-    font-size: 30px;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+@media (max-width: 1440px) {
+    .portfolioSkills {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .portfolioSkills {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 60px 20px;
+    }
+
+    .firstList {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolioSkills {
+        padding: 40px 15px;
+    }
+    
+    .skillName {
+        font-size: 1.1rem;
+        padding: 10px 15px;
+    }
+    
+    .nameList {
+        padding: 15px;
+    }
 }
